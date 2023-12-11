@@ -49,13 +49,6 @@
     list-style: none;
 }
 
-.header__menu__list__items {
-    font-size: 15px;
-    color: black;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-}
-
 .header__menu__list a:hover {
     color: #00bcd4;
     transition: all 0.5s;
@@ -64,6 +57,13 @@
 .header__menu__list a:focus {
     color: #00bcd4;
     transition: all 0.5s;
+}
+
+.header__menu__list__items {
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 0.5px;
 }
 
 .header__auth {
@@ -87,18 +87,17 @@
     justify-content: center;
 }
 
-.header__login__text {
-    font-size: 13px;
-    color: #00bcd4;
-}
-
 .header__login:hover {
     background-color: #00bcd4;
-    color: white;
 }
 
 .header__login:hover a {
     color: white;
+}
+
+.header__login__text {
+    font-size: 13px;
+    color: #00bcd4;
 }
 
 .header__signup {
