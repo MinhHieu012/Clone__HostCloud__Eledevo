@@ -192,5 +192,117 @@
     margin-right: 35px;
 }
 
+.customerTrust {
+    width:1510px;
+    height: 230px;
+    background-color: #f7f7f7;
+}
 
+.customerTrust__title {
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
 
+.customerTrust__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.customerTrust__logos {
+    width: 1015px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    width: 1510px;
+    height: 917px;
+    background-color: white;
+}
+
+.services__container {
+    width: 1110px;
+    height: 600px;
+    padding: 145px 200px 170px 200px;
+}
+
+.services__heading {
+    width: 1110px;
+    height: 215px;
+}
+
+.services__heading__name {
+    font-size: 15px;
+    color: #00bcd4;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.services__heading__title {
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.services__heading__content {
+    font-size: 15px;
+    color: #6a6a6a;
+    line-height: 25px;
+}
+
+.services__provide {
+    display: flex;  
+    justify-content: space-between;
+    width: 1110px;
+    height: 385px;
+}
+
+.services__provide__items {
+    width: calc(100% / 3 - 20px);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    margin: 0 15px;
+}
+
+.services__provide__items:first-child {
+    margin-left: 0;
+}
+
+.services__provide__items:last-child {
+    margin-right: 0;
+}
+
+.services__provide__item__icon {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    font-size: 32px;
+    color: white;
+}
+
+.services__provide__item__heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+.services__provide__item__content {
+    font-size: 14px;
+    color: #6a6a6a;
+    text-align: center;
+    line-height: 25px;
+}
