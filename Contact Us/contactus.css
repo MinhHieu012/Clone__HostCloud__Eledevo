@@ -171,3 +171,351 @@
     font-size: 15px;
     text-align: center;
 }
+
+.contactus {
+    width: 1510px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.contactUs__container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactUs__left {
+    width: 510px;
+}
+
+.contactUs__left__form {
+    width: 510px;
+}
+
+.contactUs__left__form__input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.contactUs__left__form__textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ddd;
+    color: #6a6a6a;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    outline: none;
+    resize: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.contactUs_left__form__button {
+    width: 156px;
+    height: 50px;
+    background-color: #00bcd4;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.contactUs_left__form__button:hover {
+    background-color: #00a9be;
+    transition: 0.5s;
+}
+
+.contactUs__right {
+    width: 510px;
+}
+
+.contactUs__right__top {
+    width: 510px;
+    border-bottom: 2px solid rgb(224, 222, 222);
+}
+
+.contactUs__right__top__name {
+    font-size: 15px;
+    color: #00bcd4;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contactUs__right__top__title {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.contactUs__right__top__content {
+    font-size: 14px;
+    color: #6a6a6a;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+
+.contactUs__right__bottom {
+    width: 510px;
+    height: 260px;
+    padding-top: 40px;
+}
+
+.contactUs__right__bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contactUs__right__bottom__list_icon {
+    list-style: none;
+}
+
+.contactUs__right__bottom__icons {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #00bcd4;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.contactUs__right__bottom__icons__text {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.testimonials {
+    width: 1510px;
+    height: 682px;
+    background-color: #f7f7f7;
+}
+
+.testimonials__container {
+    width: 900px;
+    height: 478px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 310px;
+    padding-right: 310px;
+}
+
+.testimonials__container__head {
+    width: 900px;
+    height: 67px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.testimonials__container__name {
+    font-size: 15px;
+    color: #00bcd4;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.testimonials__container__heading {
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+}
+
+.testimonials__container__body {
+    width: 900px;
+    height: 328px;
+    text-align: center;
+}
+
+.testimonials__container__body__icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: rgb(114, 2, 187);
+    background: linear-gradient(145deg, rgba(114, 2, 187, 1) 0%, rgba(50, 100, 245, 1) 100%);
+    color: white;
+    font-size: 18px;
+}
+
+.testimonials__container__body__comment {
+    font-size: 19px;
+    color: #6a6a6a;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 35px;
+    font-style: italic;
+}
+
+.testimonials__container__body__name {
+    font-size: 19px;
+    color: black;
+}
+
+.testimonials__container__body__job {
+    font-size: 15px;
+    color: #00bcd4;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.testimonials__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 4px;
+    background-color: #00bcd4;
+}
+
+.footer {
+    width: 1510px;
+    height: 503px;
+    background-image: url("../images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.footer__container {
+    width: 1110px;
+    height: 360px;
+    padding: 80px 190px 60px 190px;
+}
+
+.footer__container__top {
+    width: 1110px;
+    height: 275px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.footer__aboutus {
+    width: 255px;
+    height: 275px;
+}
+
+.aboutus__heading {
+    font-size: 19px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.aboutus__content {
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+}
+
+.footer__hosting__plans {
+    width: 255px;
+    height: 275px;
+}
+
+.hosting__plans__heading {
+    font-size: 19px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hosting__plans__content {
+    list-style: none;
+}
+
+.hosting__plans__content__items {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.hosting__plans__content__items a {
+    color: white;
+}
+
+.hosting__plans__content__items a:hover  {
+    color: rgb(200, 200, 200);
+    transition: 0.3s;
+}
+
+.footer__usefulLinks {
+    width: 255px;
+    height: 275px;
+}
+
+.usefulLinks__heading {
+    font-size: 19px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.usefulLinks__content {
+    list-style: none;
+}
+
+.usefulLinks__content__items {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.usefulLinks__content__items a {
+    color: white;
+}
+
+.usefulLinks__content__items a:hover {
+    color: rgb(200, 200, 200);
+    transition: 0.3s;
+}
+
+.footer__moreInfo {
+    width: 255px;
+    height: 275px;
+}
+
+.moreInfo__heading {
+    font-size: 19px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.moreInfo__content {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.moreInfo__content a {
+    color: white;
+}
+
+.moreInfo__content a:hover {
+    color: rgb(200, 200, 200);
+    transition: 0.3s;
+}
+
+.footer__container__bottom {
+    width: 1110px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: white;
+    margin-top: 65px;
+    text-align: center;
+}
