@@ -1,4 +1,4 @@
-ONLY HTML/CSS
-NO RESPONSIVE
-Clone Host Cloud
-Link: https://hostcloudclone.netlify.app/
+# ONLY HTML/CSS
+# NO RESPONSIVE
+# Clone Host Cloud
+# Deloy: https://hostcloudclone.netlify.app/
